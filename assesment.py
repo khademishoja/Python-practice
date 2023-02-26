@@ -24,10 +24,17 @@ def returnAge(name1,age):
 
 
 # returnAge("mori",17)
- 
 a = [9, 8, 10, 15, 11, 12, 14, 13,7]
-for x in a:
-    if(x>=10):
-        print(x)
+def returnBiherThanTen() : 
+    for x in a:
+        if(x>=10):
+          print(x)
 
 
+returnBiherThanTen() 
+
+
+def reverseString(x):
+    return x[::-1]
+
+print(reverseString("morteza"))
