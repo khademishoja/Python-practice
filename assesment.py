@@ -38,3 +38,9 @@ def reverseString(x):
     return x[::-1]
 
 print(reverseString("morteza"))
+
+
+#6
+x=lambda a,b:a/b
+print(int(x(15,5)))
+
