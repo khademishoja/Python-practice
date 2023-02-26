@@ -44,3 +44,16 @@ print(reverseString("morteza"))
 x=lambda a,b:a/b
 print(int(x(15,5)))
 
+#7
+
+def returnNumberA(x):
+    index=0
+    for y in x:
+        if (y=="a"):
+            index=index+1
+    
+    print("The number of iterations of letter a is:" , index)
+
+returnNumberA("write a program that will count the number of letters")
+
+
